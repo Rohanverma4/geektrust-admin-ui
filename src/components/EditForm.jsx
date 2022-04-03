@@ -47,7 +47,7 @@ export const Editform = ({showForm,id,name,email,role}) =>{
                 <input type="text" value={editemail} placeholder="Enter new email" onChange={handleEmailChange}/>
                 <br />
                 <label>Select Role : </label>
-                <select value = {editrole} onClick={handleRoleChange}>
+                <select onClick={handleRoleChange}>
                     <option value="member">Member</option>
                     <option value="admin">Admin</option>
                 </select>

@@ -84,7 +84,7 @@ thead, tbody tr td{
 	clear: none;
 	z-index: auto;
     border: 1px solid transparent;
-    background-color:aqua;
+    background-color:rgb(192, 181, 241);
     border-radius: 10px;
 }
 .formDiv input{
